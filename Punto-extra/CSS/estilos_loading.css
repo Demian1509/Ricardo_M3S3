@@ -1,0 +1,77 @@
+body{
+    background-image: url(../imagenes/fondosesion.png);
+   background-size:cover;
+   }
+   
+   
+   .box{
+     width: 300px;
+     height: 340px;
+     border: 4px double white;
+     margin:0 auto;
+     margin-top:40px;
+    
+   }
+   
+   input[type=text]{
+     width:270px;
+     height: 30px;
+     margin-top:40px;
+     margin-left:15px;
+     border:2px solid white;
+     background-color:transparent;
+     border-radius:20px;
+     color:white;
+   }
+   
+   input[type=text]:focus{
+       border:2px solid #59FCFA;
+       transition:0.4s;
+   }
+   
+   input[type=password]:focus{
+       border:2px solid #59FCFA;
+       transition:0.4s;
+   }
+   
+   
+   input[type=password]{
+     width:270px;
+     height: 30px;
+     margin-left:15px;
+     border:2px solid white;
+     background-color:transparent;
+     border-radius:20px;
+     color:white;
+   
+   }
+   
+   button{
+    text-align: center;
+     padding:10px;
+     margin-left:15px;
+     border:2px solid white;
+     background-color:transparent;
+     color:white;
+     font-size:15px;
+     border-radius:5px;
+   }
+   
+   button:focus{
+     background-color:rgba(116, 68, 68, 0.663);
+     
+     
+   }
+   
+   p{
+     font-size:20px;
+    color:white;
+     text-align: center;
+   }
+   
+   hr{
+     width:200px;
+     height:3px;
+     background-color:white;
+     border-radius:3px;
+   }
